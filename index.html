@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baldez Media</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- =====================================Box Icons============================= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+    <!-- NAVBAR SECTION -->
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="#" class="nav__logo">
+                 <img src="./images/crop.png" alt="logo" width="30%">
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <!-- <i class="ri-menu-line nav__burger"></i> -->
+                 <i class='bx bx-menu nav__burger'></i>
+                 <i class='bx bx-x nav__close'></i>
+                 <!-- <i class="ri-close-line nav__close"></i> -->
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="#home" class="nav__link">Home</a></li>
+
+                 <li><a href="#overview" class="nav__link">Overview</a></li>
+
+                 <!--=============== DROPDOWN 1 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       Gallary <i class='bx bx-chevron-down'></i> 
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="#gallary" class="dropdown__link">
+                             <i class="ri-pie-chart-line"></i> All
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-arrow-up-down-line"></i> Afcon
+                          </a>
+                       </li>
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-arrow-up-down-line"></i> Division
+                          </a>
+                       </li>
+
+                       <!--=============== DROPDOWN SUBMENU ===============-->
+                       <!-- <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i> More <i class='bx bx-plus'></i>
+                          </div>
+
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i> FIFA
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-cash-line"></i> CHAMPIONS
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i> LALIGA
+                                </a>
+                             </li>
+                          </ul>
+                       </li> -->
+                    </ul>
+                 </li>
+
+                 <!--=============== DROPDOWN 2 ===============-->
+                 <!-- <li class="dropdown__item">
+                    <div class="nav__link">
+                       About <i class='bx bx-chevron-down'></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-user-line"></i> Profiles
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-lock-line"></i> Accounts
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-message-3-line"></i> Messages
+                          </a>
+                       </li>
+                    </ul> 
+
+                 </li> -->
+
+                 <li><a href="#" class="nav__link">About</a></li>
+                 <li><a href="#" class="nav__link">Contact</a></li>
+              </ul>
+           </div>
+        </nav>
+     </header>
+
+    <!-- HOME SECTION -->
+    <section class="section" id="home">
+        <div class="home-content home-dev">
+            <div class="home-text ">
+                <h1>Baldez Multimedia Communication</h1>
+                <h4>Illuminate Your World With Photography</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- OVERVIEW SECTION -->
+    <section class="section d overview" id="overview">
+        <div class="overview-row">
+            <div class="overview-content">
+                <h2>Creativity, Quality, Value & Success</h2>
+                <P>
+                    We are more than just a team of photographers; we are passionate artists 
+                    dedicated to immortalizing the beauty and essence of every fleeting moment. 
+                    With a blend of technical expertise and boundless creativity, we go beyond 
+                    the ordinary to deliver exceptional photography services. Our mission is to 
+                    capture not just images, but emotions, stories, and memories that will last a 
+                    lifetime. Through our lens, we seek to redefine photography, turning moments into 
+                    masterpieces and clients into lifelong admirers of our craft.
+                </P>
+            </div> 
+            <div class="overview-img">
+                <img src="./images/overview.jpg" alt="overview">
+                <img src="./images/overview1.jpg" alt="overview1">
+                <div class="overview-img-content">
+                    <ul>
+                        <li>Focus on the game, frame the emotion.</li>
+                        <li>Freeze the action, feel the passion.</li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLARY SECTION -->
+    <section class="section " id="gallary">
+        <h2>Photo Gallary</h2>
+        <div class="photo-gallary">
+            <div class="gal-img">
+                <div class="gal-img-photo">
+                    <div class="gal-photo"><img src="./images/gallary/gal-img1.JPG" alt="gal-img" class="wide"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img4.jpg" alt="gal-img" class="wide"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img7.jpg" alt="gal-img" class="wide"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img10.JPG" alt="gal-img" class="wide"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img13.jpg" alt="gal-img" class="wide"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img16.jpg" alt="gal-img" class="wide"></div>
+                    <div class="gal-photo"><img src="./images/gallary/img6.jpg" alt="gal-img" class="wide"></div>
+                </div>
+
+                <div class="gal-img-photo">
+                    <div class="gal-photo"><img src="./images/gallary/gal-img2.jpg" alt="gal-img" class="tall"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img5.jpg" alt="gal-img" class="tall"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img8.jpg" alt="gal-img" class="tall"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img11.jpg" alt="gal-img" class="tall"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img14.jpg" alt="gal-img" class="tall"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img17.jpg" alt="gal-img" class="tall"></div>
+                </div>
+
+                <div class="gal-img-photo">
+                    <div class="gal-photo"><img src="./images/gallary/gal-img3.jpg" alt="gal-img" class="big"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img6.jpg" alt="gal-img" class="big"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img9.jpg" alt="gal-img" class="big"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img12.jpg" alt="gal-img" class="big"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img15.jpg" alt="gal-img" class="big"></div>
+                    <div class="gal-photo"><img src="./images/gallary/gal-img18.jpg" alt="gal-img" class="big"></div>   
+                    <div class="gal-photo"><img src="./images/gallary/img26.jpg" alt="gal-img" class="big"></div>   
+                </div>
+            </div> 
+            <button class="btn"><a href="#">More</a></button>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-distributed ">
+        <div class="footer-right">
+            <p class="footer-company-about">
+                The mission statement of BALDEZZ is CREATIVITY, QUALITY, VALUE AND SERVICE to our clients. 
+                We emphasize value and define it to mean quality products and services at reasonable prices, 
+                we aim to exeed customer expectations in every detail.
+            </p>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/profile.php?id=100054567394335"><i class='bx bxl-meta'></i></a>
+                <a href="https://www.linkedin.com/company/67491091/admin/feed/posts/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/Gomindz_Inc"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.instagram.com/p/C3AVB6BtBMx/?igsh=bHU5NmQzaG83cG96"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+        <div class="footer-left">
+            <h3>Baldez Media</h3>
+            <p class="footer-links">
+                <a href="#home">Home</a>
+                |
+                <a href="#overview">Overview</a>
+                |
+                <a href="about.html">About</a>
+                |
+                <a href="contact.html">Contact</a>
+            </p>
+            <p class="footer-company-name">Copyright © 2024 
+                <strong>Gomindz</strong> All rights reserved
+            </p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class='bx bx-current-location'></i>
+                <p><span>Kairaba Avenue, </span>Kanifing</p>
+            </div>
+            <div>
+                <i class='bx bx-phone'></i>
+                <p>+220 5067428</p>
+            </div>
+            <div>
+                <i class='bx bx-envelope'></i>
+                <p><a href="#">info@baldez.gm</a></p>
+            </div>
+        </div>
+    </footer> 
+
+    <!-- custom js -->
+    <script src="./js/script.js"></script>
+
+    <!-- boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- ionicons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> 
+    <!-- ===============Bootsrap Js================= -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+</body>
+</html>
