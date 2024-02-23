@@ -406,7 +406,7 @@ body {
     justify-content: center;
 }
 #overview .overview-content h2{
-    font-family: var(--home-heading);
+    font-family: var(--header-font);
     text-transform: uppercase;
     font-size: 3.2vw;
     font-weight: 900;
@@ -565,7 +565,7 @@ body {
 }
 #gallary h2{
     display: block;
-    font-family: var(--main-heading);
+    font-family: var(--header-font);
     color: rgba(28, 21, 92, 0.932);
     font-weight: bolder;
     padding-left: 4%;
